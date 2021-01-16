@@ -1,5 +1,4 @@
 FROM node:8-alpine
 
-RUN apk add --no-cache curl jq
-
+RUN apk add 
 RUN npm install -g ajv-cli@3.3.0
